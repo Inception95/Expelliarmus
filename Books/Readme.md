@@ -9,4 +9,4 @@ First test on image:
 
 ![Note of the Notation](https://github.com/Inception95/Expelliarmus/blob/master/Books/Images/Notation_part_I.png?raw=true)
 
-<img src="https://github.com/Inception95/Expelliarmus/blob/master/Books/Images/Notation_part_I.png" width=800/>
+Need to use the /blob/master/ not the /edit/master/ to set the absolute path of image.
