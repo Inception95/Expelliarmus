@@ -38,6 +38,11 @@ Supervised Learning
 * But it's impractical to obtain examples represent **all** situations that agent has to act in interactive problems.
 * In uncharted territory, an agent must be able to learn from its own experience.
 
+Unsupervised Learning
+
+* Finding structure hidden in collections of unlabeled data.
+* Maximizing a reward signal (RL) is different from trying to find the hidden structure (USL).
+
 
 
 ### Vocabulary
@@ -51,3 +56,7 @@ impractical - 不切实际的
 uncharted territory - 未知领域
 
 intend - 准备
+
+exhaustively - 详尽的 - in a way that includes or considers all elements or aspects (=comprehensively)
+
+alongside - 并肩
