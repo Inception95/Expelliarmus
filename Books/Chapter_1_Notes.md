@@ -84,6 +84,32 @@ E.g. An agent that monitors the charge level of robot's battery and send command
 
 
 
+##### 1.3 Elements of Reinforcement Learning
+
+###### Four main subelements of a reinforcement learning system
+
+* Policy
+  * defines the agent's way of behaving at a given time.
+  * mapping from **perceived states** of the environment to **actions to be taken** when in those states.
+  * can from **a simple function** or look up table to **stochastic, specifying probabilities** for each action.
+* Reward signal
+  * defines the **goal** of a RL problem.
+  * agent's sole objective is to maximize the total **reward** it receives **over the long run.**
+  * e.g. biological system's experiences of **pleasure or pain**.
+  * they may be stochastic functions of the state of the environment and the actions taken.
+* Value function
+  * the value of a state is the total amount of reward an agent can expect to accumulate over the future, starting from that state.
+  * reward is **immediate**, intrinsic desirability of states, while values indicate the **long-term** desirability of states after taking into account the states.
+  * **WITHOUT rewards there could be no values, and the only purpose of estimating values is to achieve more reward**.
+  * much harder to determine values than rewards, rewards are given directly by the environment, but values must be **estimated and re-estimated** from the sequences of observations an agent makes over its **entire lifetime**.
+* (Optional) Model of the environment
+  * it allows inferences to be made about how the environment will behave.
+  * Methods
+    * Model-based methods: use models and planning
+    * Model-free methods: explicitly trial-and-error learners
+
+
+
 ### Vocabulary
 
 trivialize - 琐碎
@@ -99,3 +125,11 @@ intend - 准备
 exhaustively - 详尽的 - in a way that includes or considers all elements or aspects (=comprehensively)
 
 alongside - 并肩
+
+petroleum refinery - 石油精炼厂
+
+gazelle - 瞪羚
+
+indirect - 间接的
+
+foresight - 远见，深谋远虑
