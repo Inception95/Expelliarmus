@@ -110,6 +110,37 @@ E.g. An agent that monitors the charge level of robot's battery and send command
 
 
 
+##### 1.4 Limitations and Scope
+
+RL relies heavily on the concept of state -- as input to the policy and value function, and as both input to and output from the model.
+
+###### State
+
+* Signal conveying to agent some sense of "**how the environment is**" at some time t.
+* Formal definition: by the framework of **Markov decision processe**s.
+* (?) Concern in this book is not with designing the state signal, but with deciding **what action to take as a function of whatever state signal is available**. (need to write ReByString)
+
+###### Evolutionary Methods (not cover in this book)
+
+* Definition: The policies that obtain the most reward, and random variations of them, are **carried over to the next generation of policies**, and the **process repeats**.
+* Advantages: Can be used on problems in which the learning agent **cannot sense the complete state** of its environment.
+
+
+
+##### 1.5 An Extended Example: Tic-Tac-Toe
+
+###### Minimax algorithm
+
+First to introduce the based inequality: min-max inequality
+
+* 对于以w为变量情况下的所有下确界中，存在一个以z为变量的上确界A值；对于以z为变量情况下的所有上确界中，存在一个以w为变量的下确界B值；A不大于B。(其中上、下确界指该界的值大于或者小于所有函数值，但是不一定存在函数值等于这个界值，即不一定取到界值的时候函数有定义)
+
+Proof:https://en.wikipedia.org/wiki/Max%E2%80%93min_inequality#:~:text=When%20equality%20holds%20one%20says,equality%20does%20not%20always%20hold.
+
+For the Minimax algorithm, please refer to this blog: https://blog.csdn.net/witnessai1/article/details/78377544
+
+
+
 ### Vocabulary
 
 trivialize - 琐碎
