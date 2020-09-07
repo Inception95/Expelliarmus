@@ -133,6 +133,8 @@ RL relies heavily on the concept of state -- as input to the policy and value fu
 
 First to introduce the based inequality: min-max inequality
 
+(Images/Min-Max Inequality.png)
+
 * 对于以w为变量情况下的所有下确界中，存在一个以z为变量的上确界A值；对于以z为变量情况下的所有上确界中，存在一个以w为变量的下确界B值；A不大于B。(其中上、下确界指该界的值大于或者小于所有函数值，但是不一定存在函数值等于这个界值，即不一定取到界值的时候函数有定义)
 
 Proof:https://en.wikipedia.org/wiki/Max%E2%80%93min_inequality#:~:text=When%20equality%20holds%20one%20says,equality%20does%20not%20always%20hold.
